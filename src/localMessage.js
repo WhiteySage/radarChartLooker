@@ -3,7 +3,7 @@ export const message = {
     "DEFAULT": [
       {
         "dimID": [
-          "Пилипенко Тетяна"
+          "test1"
         ],
         "metricID": [
           4.888888888888889,
@@ -20,7 +20,7 @@ export const message = {
       },
       {
         "dimID": [
-          "Лепеха Дарія"
+          "test2"
         ],
         "metricID": [
           4.875,
@@ -37,7 +37,7 @@ export const message = {
       },
       {
         "dimID": [
-          "Проценко Марина"
+          "test3"
         ],
         "metricID": [
           4.818181818181818,
@@ -54,7 +54,7 @@ export const message = {
       },
       {
         "dimID": [
-          "Войцех Аліна"
+          "test4"
         ],
         "metricID": [
           4.777777777777778,
@@ -71,7 +71,7 @@ export const message = {
       },
       {
         "dimID": [
-          "Долінська Оксана"
+          "test5"
         ],
         "metricID": [
           4.666666666666667,
@@ -88,7 +88,7 @@ export const message = {
       },
       {
         "dimID": [
-          "Прислупська Тетяна"
+          "test6"
         ],
         "metricID": [
           4.666666666666667,
@@ -105,7 +105,7 @@ export const message = {
       },
       {
         "dimID": [
-          "Темченко Катерина"
+          "test7"
         ],
         "metricID": [
           4.625,
@@ -122,7 +122,7 @@ export const message = {
       },
       {
         "dimID": [
-          "Міклашевич Станіслав"
+          "test8"
         ],
         "metricID": [
           4.5,
@@ -139,7 +139,7 @@ export const message = {
       },
       {
         "dimID": [
-          "Нікітіна Марина"
+          "test9"
         ],
         "metricID": [
           4.454545454545454,
@@ -156,7 +156,7 @@ export const message = {
       },
       {
         "dimID": [
-          "Пугачова Елена"
+          "test10"
         ],
         "metricID": [
           4.181818181818182,
@@ -173,7 +173,7 @@ export const message = {
       },
       {
         "dimID": [
-          "Муравська Анастасія"
+          "test11"
         ],
         "metricID": [
           4.181818181818182,

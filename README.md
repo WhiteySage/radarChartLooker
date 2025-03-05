@@ -5,6 +5,27 @@ JavaScript visualizations for [Google Data Studio][datastudio].
 
 ## About this template
 
+
+To start working with the local development process, you will need to install the following:
+npm 5.2.0 or later (https://nodejs.org/en/)
+gsutil (https://cloud.google.com/storage/docs/gsutil_install)
+Create your own project in Cloud Storage Bucket. 
+For reference, the two examples above contain detailed information on how to create a bucket.
+
+
+
+
+ALERT/FIX ISSUES:
+PERMISSIONS/Access control/Fine-grained: Object-level ACLs enabled
+(Command to disable IAM and switch to the old version of ACL.)
+
+Error when running npm run start:
+"const components = getBuildableComponents();"
+In this case, you need to replace the code in the file
+node_modules/@google/dscc-scripts/build/viz/utils.js
+with the code from my repository and update the path accordingly.
+
+
 This template provides
 
 1.  An opinionated workflow for developing community visualizations
@@ -117,3 +138,9 @@ The `build` and `deploy` scripts can be found in the `./scripts/bin` directory.
 [write viz code]: https://developers.google.com/datastudio/visualization/write-viz
 [ds-component]: https://developers.google.com/datastudio/visualization/library-reference
 [caching]: https://developers.google.com/datastudio/visualization/caching
+
+
+
+Example 
+
+![img.png](img.png)
