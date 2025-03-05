@@ -1,0 +1,24 @@
+{
+  "name": "Radar Chart",
+  "organization": "Whitey Sage",
+  "description": "Radar Chart",
+  "logoUrl": "https://logo",
+  "organizationUrl": "https://whitey_sage",
+  "supportUrl": "https://t.me/whitey_sage",
+  "privacyPolicyUrl": "https://url",
+  "termsOfServiceUrl": "https://url",
+  "packageUrl": "https://url",
+  "devMode": "DEVMODE_BOOL",
+  "components": [
+    {
+      "name": "Radar Chart",
+      "description": "Radar Chart",
+      "iconUrl": "https://url",
+      "resource": {
+        "js": "gs://community-looker-viz/chart/dev/index.js",
+        "config": "gs://community-looker-viz/chart/dev/index.json",
+        "css": "gs://community-looker-viz/chart/dev/index.css"
+      }
+    }
+  ]
+}
