@@ -1,0 +1,31 @@
+{
+  "dsccViz": {
+    "gcsDevBucket": "gs://community-looker-viz/radarChart/dev",
+    "gcsProdBucket": "gs://community-looker-viz/radarChart/prod",
+    "components": [
+      {
+        "jsFile": "index.js",
+        "jsonFile": "index.json",
+        "cssFile": "index.css"
+      }
+    ]
+  },
+  "scripts": {
+    "build:dev": "dscc-scripts viz build -d dev",
+    "build:prod": "dscc-scripts viz build -d prod",
+    "push:dev": "dscc-scripts viz push -d dev",
+    "push:prod": "dscc-scripts viz push -d prod",
+    "update_message": "dscc-scripts viz update_message -f object",
+    "start": "dscc-scripts viz start"
+  },
+  "devDependencies": {
+    "@google/dscc": "^0.3.17",
+    "@google/dscc-scripts": "^1.0.17",
+    "copy-webpack-plugin": "^4.6.0"
+  },
+  "dependencies": {
+    "16": "^0.0.2",
+    "chart.js": "^3.4.0",
+    "ng2-charts": "^8.0.0"
+  }
+}
