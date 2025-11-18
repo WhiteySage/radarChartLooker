@@ -1,7 +1,7 @@
 {
   "dsccViz": {
-    "gcsDevBucket": "gs://community-looker-viz/radarChart/dev",
-    "gcsProdBucket": "gs://community-looker-viz/radarChart/prod",
+    "gcsDevBucket": "gs://community-radarchart-viz/radarChart/dev",
+    "gcsProdBucket": "gs://community-radarchart-viz/radarChart/prod",
     "components": [
       {
         "jsFile": "index.js",
@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "16": "^0.0.2",
-    "chart.js": "^3.4.0",
+    "chart.js": "^3.9.1",
     "ng2-charts": "^8.0.0"
   }
 }
