@@ -103,6 +103,8 @@ Note: The message update script uses the `object` format by default. To update
 the message with the `table` format, change the `-f` parameter `update_message`
 script in `package.json` from `object` to `table`.
 
+USE MY NODE_SCRIPTS FOLDER!
+
 Build the "dev" (devMode is true) visualization
 
 ```bash
